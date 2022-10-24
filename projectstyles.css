@@ -1,0 +1,156 @@
+
+body{
+    font-family:sans-serif
+}
+
+
+
+.title{
+    float: inline-end;
+    margin-right: 700px;
+    font-size: 17px;
+    padding-top:5px;
+    
+    
+
+
+}
+
+
+
+
+.name{
+    float:inline-start;
+    font-size: 25px;
+    
+}
+
+
+.link{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s linear;
+   
+}
+
+a{
+    position: relative;
+    display: inline block;
+}
+
+
+
+a::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  margin-top: 17px;
+
+  background: blueviolet;
+  transition: .5s;
+  transform: scale(0);
+  transform-origin: left;
+}
+
+a:hover::before{
+    transform: scale(1);
+
+}
+
+
+
+
+
+.link:hover{
+    color:blueviolet;
+
+}
+
+
+.line{
+    text-decoration: underline;
+    color: black;
+    float: inline-end;
+
+}
+
+
+.main{
+    color: black;
+    position:absolute;
+    margin-top: 150px;
+    font-size: 55px;
+}
+
+
+.linear{
+    margin-left: 25px;
+    width: 1460px;
+   
+    
+}
+
+
+.container{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+
+.link_1{
+  
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+  
+}
+
+
+.link_1:hover{
+    color: blueviolet;
+    transition: color 0.2s linear;
+}
+
+.pose{
+    margin-top: 650px;
+    margin-left: 15px;
+    position: absolute;
+    
+
+}
+
+.lol{
+    margin-left: 750px;
+    position:absolute;
+    margin-top: 450px;
+    line-height: 1.5;
+}
+
+
+.lol_1{
+  margin-top: 60px;
+}
+
+.lol_2{
+    position: absolute;
+    margin-left: 1150px;
+    margin-top: 450px;
+    line-height: 1.5;
+}
+
+img{
+    margin-top: 700px;
+    height: 800px;
+    width: 100%;
+    
+   
+
+    
+    
+    
+    
+}
